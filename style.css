@@ -1,0 +1,223 @@
+body {
+
+    background: rgb(89,21,21);
+    background: radial-gradient(circle, rgba(89,21,21,1) 50%, rgba(64,16,16,1) 100%);
+}
+
+    body.index{
+    background-image: url("fotobaco/fundobaco.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+
+.menu ul li{
+    background-color: #400101; /*401212*/
+    color: white;
+    float: left;
+    width: 20%; /* largura*/  
+    height: 40px; /* altura  */
+    display: inline-block; 
+    text-align:center;
+    line-height: 40px;/*centraliza o texto na vertical*/
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    }
+    .menu ul li:hover{
+        background-color: #731f1f;
+     }
+     .menu ul{
+      padding:0px;
+      }
+      .menu ul ul{
+      display: none;
+      }
+
+h5{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    padding-top: 16%;
+}
+
+/*HISTÓRIA*/
+
+h1.textohistoria{
+    background-color: #731f1f77;
+    font-family: 'Broadway', serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+h2.textohistoria {
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+p.titulohistoria{
+    font-family: 'Broadway', serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+p.textohistoria{
+    font-family: 'arial', serif;
+    font-size: 20px;
+    color: #C0C0C0;
+    text-align: justify;
+    text-indent:25px;
+    margin: 0px;
+}
+
+.textohistoria img{
+    margin-left: 25%;
+}
+
+/*FIM HISTÓRIA*/
+
+
+/*MÚSICAS*/
+
+h1.textomusicas{
+    background-color: #731f1f77;
+    font-family: 'Broadway', serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+h2.textomusicas {
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+p.titulomusicas{
+    font-family: 'Broadway', serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+p.textomusicas{
+    font-family: 'arial', serif;
+    font-size: 20px;
+    color: #C0C0C0;
+    text-align: justify;
+    text-indent:25px;
+    margin: 0px;
+}
+
+h3.musicas {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    line-height: 50px;
+}
+
+/*FIM MÚSICAS*/
+
+
+/*GALERIA*/
+
+h1.textogaleria{
+    background-color: #731f1f77;
+    font-family: 'Broadway', serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+/*FIM GALERIA*/
+
+
+/*CONTATO*/
+
+h1.textocontato{
+    background-color: #731f1f77;
+    font-family: 'Broadway', serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+.formulario {
+    margin-left: 35%;
+    
+}
+
+textarea{
+	resize: none;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #C0C0C0;
+    text-align: center;
+
+}
+
+/*FIM CONTATO*/
+
+
+/*ENVIADA*/
+
+h1.textoformulario{
+    font-family: 'Broadway', serif;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+/*FIM ENVIADA*/
+
+
+/*RODAPÉ*/
+
+.seta {
+    margin-left:75% ;
+    position: bottom;
+    margin-left: 95%;
+}
+
+.footerindex { 
+    width: 99%;
+    color: white;
+    background-color: #40121276;
+    padding: 1px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.footer { 
+    width: 99%;
+    color: white;
+    background-color: #40121276;
+    padding: 1px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px;
+    position: bottom;
+    bottom: 0px;
+
+}
